@@ -15,8 +15,9 @@ This also isn't the first time a vulnerability of this shape has shown up in a T
 ---
  
 ## Finding 1: Unauthenticated Arbitrary File Write
-> **Full writeup:** [`findings/01-arbitrary-file-write.md`](findings/01-arbitrary-file-write.md)
+> **CVE:** CVE-2026-101053 ([VulDB #410915](https://vuldb.com/vuln/410915))
 
+> **Full writeup:** [`findings/01-arbitrary-file-write.md`](findings/01-arbitrary-file-write.md)
  
 **Product:** Thinkware U3000 Dashcam
 
@@ -40,6 +41,8 @@ The device's control protocol exposes a `PUT_FILE` command that writes attacker-
 6. `GET_FILE` on the same path reads the content back for a byte-for-byte comparison against what was sent.
  
 ## Finding 2: Unauthenticated Arbitrary File Read
+> **CVE:** CVE-2026-101054 ([VulDB #410916](https://vuldb.com/vuln/410916))
+
 > **Full writeup:** [`findings/02-arbitrary-file-read.md`](findings/02-arbitrary-file-read.md)
 
 **Product:** Thinkware U3000 Dashcam
@@ -60,6 +63,8 @@ The same protocol's `LS` and `GET_FILE` commands enumerate and read any absolute
 4. The returned content contains `ssid=`/`psk=` lines matching the camera's actual configured network.
  
 ## Finding 3: Plaintext WiFi Credential Disclosure via Status Query
+> **CVE:** CVE-2026-101055 ([VulDB #410917](https://vuldb.com/vuln/410917))
+
 > **Full writeup:** [`findings/03-wifi-credential-disclosure.md`](findings/03-wifi-credential-disclosure.md)
 
 **Product:** Thinkware U3000 Dashcam
