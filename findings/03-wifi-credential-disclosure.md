@@ -1,4 +1,5 @@
 # Thinkware U3000: Plaintext WiFi Credential Disclosure via `GET_STATUS "wifi_info"`
+> **CVE:** CVE-2026-101055 ([VulDB #410917](https://vuldb.com/vuln/410917))
 
 **Date:** June 2026
 
