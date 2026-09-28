@@ -1,4 +1,5 @@
 # Thinkware U3000: Unauthenticated Arbitrary File Read via `GET_FILE`/`LS`
+> **CVE:** CVE-2026-101054 ([VulDB #410916](https://vuldb.com/vuln/410916))
 
 **Date:** June 2026
 
