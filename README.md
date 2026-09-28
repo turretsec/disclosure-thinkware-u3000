@@ -93,7 +93,8 @@ A dedicated status query, `GET_STATUS "wifi_info"`, returns the device's WiFi SS
 | 2026-06-21 | Vendor notified via email to support@thinkware.com |
 | 2026-06-22 (approx.) | Thinkware customer support acknowledged receipt, confirmed the report was forwarded to their development team. No technical response, timeline, or fix confirmation was provided. |
 | 2026-07-21 | 30-day disclosure window closed. No further vendor contact received. |
-| 2026-08-10 | Public disclosure |
+| 2026-08-13 | Public disclosure |
+| 2026-9-27 | CVE IDs assigned, VulDB entries published |
  
 ## What's Deliberately Not Included Here
  
