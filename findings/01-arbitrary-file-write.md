@@ -1,4 +1,5 @@
 # Thinkware U3000: Arbitrary File Write via Unauthenticated `PUT_FILE`
+> **CVE:** CVE-2026-101053 ([VulDB #410915](https://vuldb.com/vuln/410915))
 
 **Date:** June 2026
 
